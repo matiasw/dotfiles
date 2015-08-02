@@ -12,3 +12,5 @@ set ignorecase
 colorscheme inkpot
 
 set guifont=ProggySquareTT\ 12
+
+:syntax
