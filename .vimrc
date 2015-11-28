@@ -13,4 +13,4 @@ colorscheme inkpot
 
 set guifont=ProggySquareTT\ 12
 
-:syntax
+:syntax on
