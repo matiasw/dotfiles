@@ -98,6 +98,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+alias gvim='gvim -p --remote-tab-silent"
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -114,7 +116,10 @@ fi
 PATH=$PATH:$HOME/.opam/system/bin
 PATH=$PATH:$HOME/Qt5.4.1/5.4/gcc_64/bin
 PATH=$PATH:/opt/extras.ubuntu.com/calendar-indicator/bin
+PATH=$PATH:/opt/johntheripper
+PATH=$PATH:/opt/metasploit-framework/
 PATH=$PATH:$HOME/gcc-arm-none-eabi/bin
+PATH=$PATH:$HOME/.local/bin
 export PATH 
 
 # gitprompt configuration
@@ -131,3 +136,9 @@ GIT_PROMPT_ONLY_IN_REPO=1
 # GIT_PROMPT_THEME=Custom # use custom .git-prompt-colors.sh
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
 source ~/.bash-git-prompt/gitprompt.sh
+
+PATH="/home/appas/perl5/bin${PATH+:}${PATH}"; export PATH;
+PERL5LIB="/home/appas/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/appas/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/appas/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/appas/perl5"; export PERL_MM_OPT;
