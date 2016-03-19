@@ -98,7 +98,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-alias gvim='gvim -p --remote-tab-silent"
+alias gvim='gvim -p --remote-tab-silent'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
