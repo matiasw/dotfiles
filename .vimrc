@@ -14,3 +14,18 @@ colorscheme inkpot
 set guifont=ProggySquareTT\ 12
 
 :syntax on
+
+" copy, cut & paste
+vmap <C-c> "+y
+vmap <C-x> "+c
+"this shit don't work:
+"cunmap <C-v>
+"cmap <C-v> <Nop>
+"vmap <C-v> c<ESC>"+p
+"cnoremap <C-v> <C-R>+
+"inoremap <C-v> "+gP
+"cnoremap <C-v> "+gP
+"imap <C-v> <ESC><C-v>i
+"smap <C-v> <C-g>p
+"TODO: figure out how in the blazes to remap C-v in command mode to enter insert mode and paste
+imap <C-v> <C-r><C-o>+
