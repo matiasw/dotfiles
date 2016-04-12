@@ -29,3 +29,11 @@ vmap <C-x> "+c
 "smap <C-v> <C-g>p
 "TODO: figure out how in the blazes to remap C-v in command mode to enter insert mode and paste
 imap <C-v> <C-r><C-o>+
+
+"tab navigation
+nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <C-tab>   :tabnext<CR>
+nnoremap <C-t>     :tabnew<CR>
+inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+inoremap <C-tab>   <Esc>:tabnext<CR>i
+inoremap <C-t>     <Esc>:tabnew<CR>
