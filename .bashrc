@@ -118,9 +118,13 @@ PATH=$PATH:$HOME/Qt5.4.1/5.4/gcc_64/bin
 PATH=$PATH:/opt/extras.ubuntu.com/calendar-indicator/bin
 PATH=$PATH:/opt/johntheripper
 PATH=$PATH:/opt/metasploit-framework/
+PATH=$PATH:/opt/
 PATH=$PATH:$HOME/gcc-arm-none-eabi/bin
 PATH=$PATH:$HOME/.local/bin
 export PATH 
+
+JOHN=/opt/johntheripper
+export JOHN
 
 # gitprompt configuration
 
